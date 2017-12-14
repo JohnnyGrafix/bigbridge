@@ -10,6 +10,7 @@ h3 {
 }
 .contentBox {
 	display: flex;
+	padding: 10px;
 	flex-wrap: wrap;
 	min-width: 380px;
 	border: 1px solid red;
