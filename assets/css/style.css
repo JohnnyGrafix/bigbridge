@@ -1,3 +1,98 @@
-p {
-	color: red;
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	color: gray;
+}
+h3 {
+	font-size: 1.2rem;
+    color: black;
+}
+.contentBox {
+	display: flex;
+	flex-wrap: wrap;
+	min-width: 380px;
+	border: 1px solid red;
+}
+.main {
+   position: relative;
+   height: 550px;
+   width: 380px;
+   margin-bottom: 200px;
+   border: 1px solid blue;
+   }
+.image {
+	position: absolute;
+	margin: auto;
+	width: 100%;
+	border: 1px solid yellow;
+}
+.words {
+	position: absolute;
+	left: 5%;
+	z-index: 5;
+}
+.buttonDiv {
+	position: absolute;
+	top: 85%;
+	width: 380px;
+	padding: 0px;
+	margin-top: 10px;
+	height: 70px;
+	border: 1px solid red;
+}
+.next {
+	position: absolute;
+	width: 15%;
+	left: 75%;
+	}
+.next:hover {
+	width: 16%;
+}
+.home {
+	position: absolute;
+	width: 15%;
+	left: 5%;
+	}
+.home:hover {
+	width: 16%;
+}
+.back {
+	position: absolute;
+	width: 15%;
+	left: 45%;
+	}
+.back:hover {
+	width: 16%;
+}
+#p1text2 {
+	top: 8%;
+	left: 5%;
+}
+#p1text3 {
+	top: 30%;
+	left: 19%;
+}
+#p1text4 {
+	top: 56%;
+	left: 60%;
+	color: black;
+} 
+#p1text5 {
+	top: 50%;
+	left: 29%;
+	color: black;
+}
+#p1text6 {
+	top: 60%;
+	left: 42%;
+	color: black;
+}
+#p1text7 {
+	top: 41%;
+	left: 30%;
+}
+#p1text8 {
+	top: 33%;
+	left: 45%;
 }
