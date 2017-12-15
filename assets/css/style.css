@@ -20,7 +20,7 @@ h3 {
    position: relative;
    height: 550px;
    width: 100%;
-   max-width: 380px;
+   width: 380px;
    margin-bottom: 200px;
    border: 1px solid blue;
    }
@@ -28,6 +28,7 @@ h3 {
 	position: absolute;
 	margin: auto;
 	width: 100%;
+	width: 380px;
 	border: 1px solid yellow;
 }
 .words {
@@ -77,23 +78,23 @@ h3 {
 	left: 23%;
 }
 #p1text4 {
-	top: 49%;
-	left: 60%;
+	top: 280px;
+	left: 245px;
 	color: black;
 } 
 #p1text5 {
-	top: 45%;
-	left: 27%;
+	top: 280px;
+	left: 145px;
 	color: black;
 }
 #p1text6 {
-	top: 54%;
-	left: 42%;
+	top: 300px;
+	left: 215px;
 	color: black;
 }
 #p1text7 {
-	top: 35%;
-	left: 30%;
+	top: 220px;
+	left: 150px;
 }
 #p1text8 {
 	top: 29%;
