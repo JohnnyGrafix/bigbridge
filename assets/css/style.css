@@ -6,7 +6,7 @@ body {
 }
 h3 {
 	font-size: 1.2rem;
-    color: black;
+	color: black;
 }
 .contentBox {
 	display: flex;
@@ -67,52 +67,35 @@ h3 {
 .back:hover {
 	width: 16%;
 }
+
+/*page1 and page 2 have been swapped around*/
+
 #p1text2, #p2text2 {
 	top: 8%;
 	left: 5%;
 }
-#p1text3 {
-	top: 22%;
-	left: 23%;
-}
-#p1text4 {
-	top: 280px;
-	left: 245px;
-	color: black;
-} 
-#p1text5 {
-	top: 280px;
-	left: 145px;
-	color: black;
-}
-#p1text6 {
-	top: 300px;
-	left: 180px;
-	color: black;
-}
-#p1text7 {
-	top: 220px;
-	left: 150px;
-}
-#p1text8 {
-	top: 35%;
-	left: 45%;
-}
+
+/*page1 text*/
+
 #p2text3 {
-	top: 30%;
+	top: 25%;
 	left: 45%;
-	color: #A0262A;
 }
+
+#p2text3 h3{
+	color: #a0262a;
+}
+
 #p2text4 {
 	top: 36%;
 	left: 85%;
 }
 #p2text5 {
-	top: 48%;
+	top: 38%;
 	left: 12%;
 }
 #p2text6 {
-	top: 56%;
+	top: 51%;
 	left:17%;
 }
 #p2text7 {
@@ -123,6 +106,37 @@ h3 {
 	top: 76.5%;
 	left:5%;
 }
+
+/*page 2 text*/
+
+#p1text3 {
+	top: 22%;
+	left: 23%;
+}
+#p1text4 {
+	top: 45%;
+	left: 65%;
+	color: black;
+} 
+#p1text5 {
+	top: 45%;
+	left: 30%;
+	color: black;
+}
+#p1text6 {
+	top: 50%;
+	left: 45%;
+	color: black;
+}
+#p1text7 {
+	top: 35%;
+	left: 35%;
+}
+#p1text8 {
+	top: 30%;
+	left: 55%;
+}
+
 #p3text2 {
 	top: 0%;
 }
@@ -163,20 +177,20 @@ h3 {
 	left: 20%;
 }
 #p4text2 {
-	top: 56%;
+	top: 46%;
 	left: 20%;
 }
 #p4text3 {
-	top: 76%;
+	top: 66%;
 	left: 20%;
 }
 #p4text4 {
-	top: 63%;
-	left: 60%;
+	top: 55%;
+	left: 56%;
 }
 #p4text5 {
-	top: 74%;
-	left: 83%;
+	top: 66%;
+	left: 80%;
 }
 #p5text1 {
 	top: 30%;
