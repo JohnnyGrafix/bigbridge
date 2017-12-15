@@ -10,25 +10,23 @@ h3 {
 }
 .contentBox {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	flex-wrap: wrap;
 	width: 100%;
 	padding: 0px;
-	border: 1px solid red;
 }
 .main {
    position: relative;
    height: 550px;
    width: 100%;
    max-width: 350px;
+   min-width: 330px;
    margin-bottom: 200px;
-   border: 1px solid blue;
    }
 .image {
 	position: absolute;
 	margin: auto;
 	width: 100%;
-	border: 1px solid yellow;
 }
 .words {
 	position: absolute;
@@ -42,7 +40,6 @@ h3 {
 	padding: 0px;
 	margin-top: 10px;
 	height: 70px;
-	border: 1px solid red;
 }
 .next {
 	position: absolute;
@@ -75,6 +72,9 @@ h3 {
 	top: 8%;
 	left: 5%;
 }
+#p2text1 h3, #p1text1 h3{
+	color: #49479D;
+}
 
 /*page1 text*/
 
@@ -85,6 +85,7 @@ h3 {
 
 #p2text3 h3{
 	color: #a0262a;
+	font-weight: bold;
 }
 
 #p2text4 {
@@ -148,6 +149,8 @@ h3 {
 	margin: 0px;
 }
 
+/*text for page 3*/
+
 #p3text2 {
 	top: 0%;
 }
@@ -156,33 +159,28 @@ h3 {
 	left: 20%;
 }
 #p3text3 {
-	top: 18%;
-	font-size: 1.5rem;
-	margin-right: 5%;
-	margin-left: 5%;
+	top: 20%;
+	left: 25%;
 }
 #p3text4 {
-	top: 30%;
-	margin-right: 5%;
-	margin-left: 5%;
-	font-size: 1.5rem;
+	top: 33%;
+	left: 27%;
 }
 #p3text5 {
-	top: 42%;
-	margin-right: 10%;
-	margin-left: 10%;
-	font-size: 1.5rem;
+	top: 45%;
+	left: 29%;
 }
 #p3text6 {
-	top: 54%;
-	margin-right: 5%;
-	margin-left: 5%;
-	font-size: 1.5rem;
+	top: 57%;
+	left: 29%;
 }
 #p3text7 {
 	top: 70%;
 	left: 5%;
 }
+
+/*text for page 4*/
+
 #p4text1 {
 	top: 16%;
 	left: 20%;
@@ -196,13 +194,17 @@ h3 {
 	left: 20%;
 }
 #p4text4 {
-	top: 55%;
-	left: 56%;
+	top: 58%;
+	left: 50%;
 }
 #p4text5 {
-	top: 66%;
+	top: 68%;
 	left: 80%;
 }
+
+/*text for page 5*/
+
+
 #p5text1 {
 	top: 30%;
 	left: 20%;
@@ -223,6 +225,10 @@ h3 {
 	top: 64%;
 	left: 75%;
 }
+
+/*text for page 6*/
+
+
 #p6text1 {
 	left: 45%;
 }
@@ -234,3 +240,44 @@ h3 {
 	top: 50%;
 	left: 30%;
 }
+#page6 {
+	margin-bottom: 400px;
+}
+
+@media only screen and (min-width: 737px) {
+	#p1text1, #p1text2, #forward1, #home2, #back3, #forward3, #home4, #back4, #back5, #forward5, #home6, #back6 {
+		display: none;
+	}
+	#p2text1 h3{
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (min-width: 1088px) {
+	#forward2, #home3, #forward4, #home5, #p2text2 {
+		display: none;
+	}
+	#p1text2 {
+		display: block;
+		color: black;
+		font-weight: bold;
+		top: 5%;
+	}
+	#p3text2 {
+		top: 5%;
+	}
+	#p3text2 h3{
+		font-size: 1rem;
+	}
+	.main {
+		margin-bottom: -80px;
+	}
+	#p2text1 h3{
+		font-size: 1.8rem;
+	}
+}
+
+
+
+
+
